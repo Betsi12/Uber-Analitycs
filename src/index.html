@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Uber Analitycs</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />  
+  </head>
+  <body>
+    <!--aquí va el encabezado de la página-->
+    <header>
+      <!--aquí van los elementos que vinculan entre una pagína y otra-->  
+      <!--nav para desktop-->
+      <nav class="nav-wrapper">        
+          <a href="#" class="brand-logo">
+            <img src="Image/uber_logo.png" id="logo" alt="logo Uber"/> 
+          </a>
+          <a  data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down"> 
+            <li><a class="tutorial" href="#">¿Qué es Uber Analitycs?</a></li>
+            <li><a class="search" href="#">Iniciar Análisis </a></li>
+          </ul>     
+      </nav>
+
+      <!--nav responsivo-->
+      <ul class="sidenav" id="mobile-demo" >
+        <li><a class="tutorial" href="#">¿Qué es Uber Analitycs?</a></li>
+        <li><a class="search" href="#">Iniciar Análisis</a></li>
+      </ul>
+    </header>
+
+    <!--La etiqueta main corresponde al contenido dinámico-->
+    <main id="dinamicpage"> 
+      
+    </main>
+   <!--aquí va el pie de página-->
+    <footer>
+      <p>Analitica de Redes Sociales</p> 
+      <p>Diseñado y construido por: 2019©</p>
+    </footer>  
+     <!--CDN JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="data.js"></script>    
+    <script src="main.js"></script>
+    <script src="../js/materialize.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Script Google Chart-->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>   
+  </body>
+</html>
